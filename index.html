@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+  <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">📘 HelpfulBooks</div>
+    <div class="nav-links">
+      <a href="index.html">Start</a>
+      <a href="mindset.html">Mindset</a>
+      <a href="#">Finanzen</a>
+      <a href="#">Karriere</a>
+    </div>
+  </div>
+</nav>
   <meta charset="UTF-8">
   <title>HelpfulBooks – Erfolg & finanzielle Freiheit</title>
   <style>
@@ -55,6 +66,38 @@
       margin-top: 60px;
       font-size: 0.9rem;
     }
+    .navbar {
+  background: #0f172a;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
   </style>
 </head>
 
