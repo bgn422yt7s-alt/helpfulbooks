@@ -53,10 +53,53 @@
       color: white;
       margin-top: 60px;
     }
+    .navbar {
+  background: #0f172a;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
   </style>
 </head>
 
 <body>
+  <nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">📘 HelpfulBooks</div>
+    <div class="nav-links">
+      <a href="index.html">Start</a>
+      <a href="mindset.html">Mindset</a>
+      <a href="finanzen.html">Finanzen</a>
+      <a href="#">Karriere</a>
+    </div>
+  </div>
+</nav>
 
 <header>
   <h1>🧠 Mindset & Disziplin</h1>
